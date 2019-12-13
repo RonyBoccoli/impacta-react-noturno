@@ -11,4 +11,4 @@ const cursoSchema = new Schema({
         enum:['INFORMATICA', 'ENGENHARIA', 'ADMINISTRACAO', 'REDES']}
         }
 )
-module.exports = restful.model(' ',cursoSchema);
+module.exports = restful.model('curso',cursoSchema);
